@@ -1,0 +1,288 @@
+{
+	"explorer.confirmDelete": false,
+	"editor.renderControlCharacters": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.minimap.enabled": false,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.smoothScrolling": true,
+	"editor.tabCompletion": "on",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.fontFamily": "Fira Code",
+	"editor.cursorBlinking": "smooth",
+	"terminal.integrated.fontFamily": "Hack, MesloLGMDZ Nerd Font",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"python.analysis.diagnosticMode": "workspace",
+	// "editor.fontFamily": "Andy",
+	"editor.fontWeight": "500",
+	// "terminal.integrated.fontFamily": "IBM Plex Mono",
+	"editor.fontStyle": "italic",
+	"editor.fontSize": 16,
+	"editor.fontLigatures": true,
+	"editor.accessibilityPageSize": 11,
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "~/../css/"
+		}
+	],
+	"liveSassCompile.settings.autoprefix": ["> 1%", "last 5 versions"],
+	"[scss]": {
+		"editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+	},
+	"workbench.startupEditor": "none",
+	"workbench.statusBar.visible": true,
+	"Scss2css.output": "expanded",
+	"editor.linkedEditing": true,
+	"[css]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"git.confirmSync": false,
+	"editor.formatOnSaveMode": "file",
+	//Format
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"editor.formatOnPaste": true,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	//Включите круглые скобки вокруг единственного параметра функции стрелки
+	"prettier.arrowParens": "avoid",
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"ecsstractor_port.bem_nesting": true,
+	"files.trimTrailingWhitespace": true,
+	"[csharp]": {
+		"editor.defaultFormatter": "ms-dotnettools.csharp"
+	},
+	"workbench.editorAssociations": {
+		"*.docx": "default"
+	},
+	"diffEditor.wordWrap": "off",
+	"editor.wordWrap": "on",
+	"svelte.enable-ts-plugin": true,
+	"hediet.vscode-drawio.codeLinkActivated": false,
+	"sync.gist": "a2c846409f78e3f0b465f753e99ec24a",
+	"explorer.compactFolders": false,
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.formatOnSave": true,
+	"dart.sdkPath": "C:\\Codes\\dart-sdk",
+	"dart.flutterSdkPath": "/home/cofeek-codes/snap/flutter/common/flutter",
+	"[dart]": {
+		"editor.defaultFormatter": "Dart-Code.dart-code"
+	},
+	"dart.debugExternalPackageLibraries": true,
+	"dart.debugSdkLibraries": true,
+	"dart.previewFlutterUiGuides": true,
+	"dart.previewFlutterUiGuidesCustomTracking": true,
+	"[kotlin]": {
+		"editor.defaultFormatter": "fwcd.kotlin"
+	},
+	"code-runner.runInTerminal": true,
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"vsicons.projectDetection.autoReload": false,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[env]": {
+		"editor.defaultFormatter": "IronGeek.vscode-env"
+	},
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+
+	"php.validate.executablePath": "/usr/bin/php",
+	"tabnine.experimentalAutoImports": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"phpformatter.phpPath": "/usr/bin/php",
+	"phpfmt.php_bin": "/usr/bin/php",
+	"customImportSort.sortingSettings": [
+		{
+			"regex": "^react$",
+			"importance": 4
+		},
+		{
+			"regex": "^use client$",
+			"importance": -1,
+			"lineafter": false
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)component",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)feature",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)table",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)layout",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)page",
+			"importance": 3
+		},
+		{
+			"regex": "^@",
+			"importance": 1,
+			"lineafter": true
+		},
+		{
+			"regex": "^\\.\\/",
+			"importance": 1
+		},
+		{
+			"regex": "^\\.\\.\\/",
+			"importance": 2,
+			"lineafter": true
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)util",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)api",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)service",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)store",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)store.*\\/use",
+			"importance": 4
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)hook",
+			"importance": 3,
+			"lineafter": true
+		},
+		{
+			"regex": "const",
+			"importance": 1
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)rout",
+			"importance": 3
+		},
+		{
+			"regex": "^(@|[\\.\\.\\/]+)typings",
+			"importance": 3
+		},
+		{
+			"regex": "\\.types?(\\.tsx?)?$",
+			"importance": 1,
+			"lineafter": true
+		},
+		{
+			"regex": "^\\.?\\.\\/.*\\.types(\\.tsx?)?$",
+			"importance": 4,
+			"lineafter": true
+		},
+		{
+			"regex": "\\.s?css$",
+			"importance": 4,
+			"lineafter": true
+		}
+	],
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.python",
+		"editor.formatOnType": true
+	},
+	"intelephense.compatibility.correctForArrayAccessArrayAndTraversableArrayUnionTypes": false,
+	"intelephense.compatibility.correctForBaseClassStaticUnionTypes": false,
+	"intelephense.diagnostics.deprecated": false,
+	"intelephense.diagnostics.argumentCount": false,
+	"intelephense.diagnostics.duplicateSymbols": false,
+	"intelephense.diagnostics.embeddedLanguages": false,
+	"intelephense.diagnostics.enable": false,
+	"intelephense.diagnostics.languageConstraints": false,
+	"intelephense.diagnostics.run": "onSave",
+	"intelephense.diagnostics.typeErrors": false,
+	"intelephense.diagnostics.undefinedClassConstants": false,
+	"intelephense.diagnostics.undefinedConstants": false,
+	"intelephense.diagnostics.undefinedFunctions": false,
+	"intelephense.diagnostics.undefinedMethods": false,
+	"intelephense.diagnostics.undefinedProperties": false,
+	"intelephense.diagnostics.undefinedSymbols": false,
+	"intelephense.diagnostics.undefinedTypes": false,
+	"intelephense.diagnostics.undefinedVariables": false,
+	"intelephense.diagnostics.unexpectedTokens": false,
+	"intelephense.diagnostics.unusedSymbols": false,
+	"intelephense.environment.shortOpenTag": true,
+	"intelephense.format.enable": true,
+	"files.associations": {
+		"*.twig": "django-html",
+		"*.css": "css",
+		"*.hbs": "handlebars",
+		"*.jsx": "javascriptreact"
+	},
+	"emmet.includeLanguages": {
+		"django-html": "html"
+	},
+	"Lua.telemetry.enable": true,
+	"glassit.alpha": 227,
+	"glassit.step": 3,
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontWeight": "bold",
+	"[astro]": {
+		"editor.defaultFormatter": "astro-build.astro-vscode"
+	},
+	"[go]": {
+		"editor.defaultFormatter": "golang.go"
+	},
+	"workbench.colorTheme": "Rosé Pine",
+	"errorLens.fontStyleItalic": true,
+	"errorLens.fontWeight": "bold",
+	"errorLens.gutterIconsEnabled": true,
+	"errorLens.gutterIconSet": "circle",
+	"errorLens.statusBarColorsEnabled": true,
+	"errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"],
+	"errorLens.messageTemplate": "[$source] $severity: $message",
+	"window.titleBarStyle": "custom",
+	"window.zoomLevel": 2,
+	"[c]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"terminal.integrated.env.linux": {
+		"CLR_OPENSSL_VERSION_OVERRIDE": "1.1"
+	},
+	"[aspnetcorerazor]": {
+		"editor.defaultFormatter": "ms-dotnettools.csharp"
+	},
+	"kotlin.languageServer.enabled": false,
+	"kotlin.debugAdapter.enabled": false,
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"cmake.configureOnOpen": true,
+	"[go.mod]": {
+		"editor.defaultFormatter": "golang.go"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
+}
