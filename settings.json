@@ -278,7 +278,7 @@
 	"[rust]": {
 		"editor.defaultFormatter": "rust-lang.rust-analyzer"
 	},
-	"cmake.configureOnOpen": true,
+	"cmake.configureOnOpen": false,
 	"[go.mod]": {
 		"editor.defaultFormatter": "golang.go"
 	},
