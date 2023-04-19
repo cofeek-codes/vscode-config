@@ -74,7 +74,7 @@
 	"sync.gist": "a2c846409f78e3f0b465f753e99ec24a",
 	"explorer.compactFolders": false,
 	"workbench.productIconTheme": "material-product-icons",
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "catppuccin-mocha",
 	"editor.formatOnSave": true,
 	"dart.sdkPath": "C:\\Codes\\dart-sdk",
 	"dart.flutterSdkPath": "/home/cofeek-codes/snap/flutter/common/flutter",
@@ -284,5 +284,15 @@
 	},
 	"[prisma]": {
 		"editor.defaultFormatter": "Prisma.prisma"
-	}
+	},
+	"[haskell]": {
+		"editor.defaultFormatter": "haskell.haskell"
+	},
+	"mdx.experimentalLanguageServer": true,
+	"snyk.yesWelcomeNotification": false,
+	"snyk.advanced.cliPath": "/home/cofeek-codes/.local/share/snyk-ls/snyk-linux",
+	"snyk.trustedFolders": [
+		"/home/cofeek-codes/Рабочий стол/Codes/rustlang/expose-combos-rs",
+		"/home/cofeek-codes/Рабочий стол/Codes/web/Server-Nest"
+	]
 }
