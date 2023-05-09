@@ -289,10 +289,13 @@
 		"editor.defaultFormatter": "haskell.haskell"
 	},
 	"mdx.experimentalLanguageServer": true,
-	"snyk.yesWelcomeNotification": false,
-	"snyk.advanced.cliPath": "/home/cofeek-codes/.local/share/snyk-ls/snyk-linux",
-	"snyk.trustedFolders": [
-		"/home/cofeek-codes/Рабочий стол/Codes/rustlang/expose-combos-rs",
-		"/home/cofeek-codes/Рабочий стол/Codes/web/Server-Nest"
-	]
+	"auto-close-tag.disableOnLanguage": [
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact"
+	],
+	"[clojure]": {
+		"editor.defaultFormatter": "betterthantomorrow.calva"
+	}
 }
