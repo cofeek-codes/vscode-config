@@ -1,0 +1,41 @@
+{
+	"php": {
+		"scope": "",
+		"prefix": "php",
+		"body": [
+			"<?php $0 ?>"
+		],
+		"description": "php"
+	},
+	"flex center for (s)css": {
+		"scope": "css,scss",
+		"prefix": "center",
+		"body": [
+			"display: flex;",
+			"justify-content: center;",
+			"align-items: center;"
+		],
+		"description": "flex center for (s)css"
+	},
+	"Vue SFC": {
+		"scope": "vue",
+		"prefix": [
+			"vsfc",
+			"vuesfc"
+		],
+		"body": [
+			"<script setup lang=\"ts\">",
+			"",
+			"</script>",
+			"",
+			"<template>",
+			"    ",
+			"</template>",
+			"",
+			"<style scoped lang=\"scss\">",
+			"",
+			"</style>"
+		],
+		"description": "Vue SFC"
+	}
+}
